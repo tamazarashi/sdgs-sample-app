@@ -140,7 +140,7 @@
 					<registry>ghcr.io</registry>
 					<images>
 						<image>
-							<name>tamazarashi/sdgs-sample-app</name>
+							<name>tamazarashi/hello-app</name>
 							<build>
 								<tags>
 									<tag>${image.tag}</tag>
