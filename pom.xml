@@ -5,7 +5,7 @@
 	<artifactId>hello-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>hello-app</name>
+	<name>sdgs-sample-app</name>
 
 	<properties>
 		<!-- environment settings -->
@@ -140,7 +140,7 @@
 					<registry>ghcr.io</registry>
 					<images>
 						<image>
-							<name>tamazarashi/hello-app</name>
+							<name>tamazarashi/sdgs-sample-app</name>
 							<build>
 								<tags>
 									<tag>${image.tag}</tag>
@@ -159,7 +159,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/tamazarashi/study-sample-app</url>
+      <url>https://maven.pkg.github.com/tamazarashi/sdgs-sample-app</url>
     </repository>
   </distributionManagement>
 </project>
