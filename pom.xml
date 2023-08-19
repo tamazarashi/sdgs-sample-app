@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>sdgs</groupId>
-	<artifactId>hello-app</artifactId>
+	<artifactId>sdgs-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>hello-app</name>
+	<name>sdgs-app</name>
 
 	<properties>
 		<!-- environment settings -->
@@ -140,7 +140,7 @@
 					<registry>ghcr.io</registry>
 					<images>
 						<image>
-							<name>tamazarashi/hello-app</name>
+							<name>tamazarashi/sdgs-app</name>
 							<build>
 								<tags>
 									<tag>${image.tag}</tag>
